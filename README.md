@@ -3,6 +3,8 @@
 ## Functionality
 The links change color on hover and if you click them the page autoscrolls to the correponding topic.
 
+![](ezgif.com-optimize.gif)
+
 ## Project setup
 ```
 npm install
