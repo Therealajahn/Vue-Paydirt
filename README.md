@@ -1,5 +1,8 @@
 # vue-paydirt
 
+## Functionality
+The links change color on hover and if you click them the page autoscrolls to the correponding topic.
+
 ## Project setup
 ```
 npm install
