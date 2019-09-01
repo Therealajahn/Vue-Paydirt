@@ -1,28 +1,28 @@
 <template>
+  
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  
+    <IntroPage />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import IntroPage from "./components/IntroPage.vue";
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
-  }
+    IntroPage
+  },
+  
 }
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+@import url('https://fonts.googleapis.com/css?family=Lalezar&display=swap');
+body{
+    background-color: #2989D6;
+    margin: 0;
+    padding: 0;
 }
 </style>
